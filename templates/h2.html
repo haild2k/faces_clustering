@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Store Report
+    </title>
+</head>
+<body>
+    <h1 style="color:Tomato"> DEMO ẢNH KỶ HIẾU LỚP XYZ </h1>
+    <p>Danh sách ảnh nổi bật của bạn: </p>
+    {% for path in paths %}
+    <img src={{path}} alt="None" style="width:300px">
+    <br>
+    {% endfor %}
+</body>
+</html>
