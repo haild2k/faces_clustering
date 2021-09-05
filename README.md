@@ -1,2 +1,11 @@
+# Author: Lăng Đức Hải
+
+# Company: Hyperlogy
+
 # faces_clustering
-Phân cụm khuôn mặt từ một bộ ảnh cho trước
+Face clustering from a given set of images
+
+# steps to take:
+- run encode_faces.py
+- run faces_clustering.py
+- run main.py
